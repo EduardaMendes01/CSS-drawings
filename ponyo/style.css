@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #2f40ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.ponyo-face {
+    width: 250px;
+    height: 250px;
+    border-radius: 50% 50% 40% 40% / 46% 50% 34% 56%;
+    background-color: #DCB695;
+    display: flex;
+}
+
+.ponyo-eyes{
+    position: absolute;
+}
+
+.eye-1{
+    width: 55px;
+    height: 47px;
+    background: white;
+    border-radius: 51% 49% 46% 54% / 64% 64% 36% 36%;
+    position: absolute;
+    top: 83px;
+    left: 45px;
+}
+
+.eye-2{
+    width: 55px;
+    height: 47px;
+    background: white;
+    border-radius: 51% 49% 46% 54% / 64% 64% 36% 36%;
+    position: absolute;
+    top: 83px;
+    left: 163px;
+}
+
+.iris{
+    position: absolute;
+    clip-path: ellipse(33% 38% at 50% 50%);
+    width: 50px;
+    height: 50px;
+    background-color: #3F382A;
+    top: 2px;
+    left: 3px;
+    z-index: 1;
+}
+
+.pupils{
+    position: absolute;
+    background-color: black;
+    border-radius: 50%;
+    width: 20px;
+    height: 25px;
+    top: 13px;
+    left: 15px;
+}
+
+.sparkles{
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    width: 8px;
+    height: 10px;
+    top: 15px;
+    left: -1px;
+}
+
+.mouth{
+    position: absolute;
+    border-radius: 51% 49% 87% 13% / 80% 69% 31% 20%;
+    background-color: #ce7660;
+    width: 30px;
+    height: 19px;
+    top: 68%; 
+    left: 52%;
+    transform: translate(-50%, -50%);
+}
+
