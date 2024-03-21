@@ -123,3 +123,29 @@ body {
     transform: translate(-50%, -50%);
     clip-path: polygon(5% 98%, 12% 90%, 23% 88%, 21% 92%, 15% 93%);
 }
+
+.eyebrows{
+    position: absolute;
+}
+
+.eyeb1{
+    position: absolute;
+    background-color: #CE5E50;
+    clip-path: polygon(22% 75%, 36% 66%, 53% 66%, 59% 72%, 41% 70%);
+    width: 121px;
+    height: 110px;
+    left: 20px;
+    top: -10px;
+    z-index: 4;
+}
+
+.eyeb2{
+    position: absolute;
+    background-color: #CE5E50;
+    clip-path: polygon(22% 75%, 36% 66%, 53% 66%, 59% 72%, 41% 70%);
+    width: 121px;
+    height: 110px;
+    left: 138px;
+    top: -10px;
+    z-index: 4;
+}
