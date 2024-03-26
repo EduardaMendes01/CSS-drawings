@@ -20,6 +20,7 @@ body {
     border-radius: 50% 50% 40% 40% / 46% 50% 34% 56%;
     background-color: #DCB695;
     display: flex;
+    border: solid 2px black;
 }
 
 .ponyo-eyes{
@@ -148,4 +149,193 @@ body {
     left: 138px;
     top: -10px;
     z-index: 4;
+}
+.hair{
+    position: relative;
+    bottom: 304px;
+}
+
+.hair>div:nth-child(1){
+    background-color: transparent;
+    color: #CE624D;
+    height: 30pc;
+    width: 100px;
+    border-top: 20px solid #CE624D;
+    border-radius: 50px 40px 0 0;
+    position: absolute;
+    right: -38px;
+    top: -105px;
+    transform: rotate(-89deg);
+}
+
+.hair>div:nth-child(2){
+    background-color: transparent;
+    color: #CE624D;
+    height: 30pc;
+    width: 77px;
+    border-top: 20px solid #CE624D;
+    border-radius: 50px 40px 0 0;
+    position: absolute;
+    right: 291px;
+    top: 160px;
+    transform: rotate(18deg);
+}
+
+.hair>div:nth-child(3){
+    background-color: transparent;
+    color: #CE624D;
+    height: 30pc;
+    width: 120px;
+    border-top: 20px solid #CE624D;
+    border-radius: 50px 40px 0 0;
+    position: absolute;
+    right: -25px;
+    top: -9px;
+    transform: rotate(-52deg);
+}
+
+.hair>div:nth-child(4){
+    background-color: transparent;
+    color: #CE624D;
+    height: 30pc;
+    width: 100px;
+    border-top: 20px solid #CE624D;
+    border-radius: 50px 40px 0 0;
+    position: absolute;
+    right: -38px;
+    top: -105px;
+    transform: rotate(-89deg);
+}
+
+.hair>div:nth-child(5){
+    background-color: transparent;
+    color: #CE624D;
+    height: 30pc;
+    width: 95px;
+    border-top: 20px solid #CE624D;
+    border-radius: 50px 40px 0 0;
+    position: absolute;
+    right: -26px;
+    top: -16px;
+    transform: rotate(-45deg);
+}
+
+.hair>div:nth-child(6){
+    background-color: transparent;
+    color: #CE624D;
+    height: 30pc;
+    width: 84px;
+    border-top: 20px solid #CE624D;
+    border-radius: 50px 40px 0 0;
+    position: absolute;
+    right: -38px;
+    top: -8px;
+    transform: rotate(-42deg);
+}
+
+.hair>div:nth-child(7){
+    background-color: transparent;
+    color: #CE624D;
+    height: 30pc;
+    width: 111px;
+    border-top: 20px solid #CE624D;
+    border-radius: 50px 40px 0 0;
+    position: absolute;
+    right: 298px;
+    top: -115px;
+    transform: rotate(71deg);
+}
+
+.hair>div:nth-child(8){
+    background-color: transparent;
+    color: #CE624D;
+    height: 30pc;
+    width: 127px;
+    border-top: 20px solid #CE624D;
+    border-radius: 50px 40px 0 0;
+    position: absolute;
+    right: 263px;
+    top: -94px;
+    transform: rotate(66deg);
+}
+
+.hair>div:nth-child(9){
+    background-color: transparent;
+    color: #CE624D;
+    height: 30pc;
+    width: 99px;
+    border-top: 20px solid #CE624D;
+    border-radius: 50px 40px 0 0;
+    position: absolute;
+    right: 215px;
+    top: -29px;
+    transform: rotate(46deg);
+}
+
+.hair>div:nth-child(10){
+    background-color: transparent;
+    color: #CE624D;
+    height: 30pc;
+    width: 108px;
+    border-top: 20px solid #CE624D;
+    border-radius: 50px 40px 0 0;
+    position: absolute;
+    right: -234px;
+    top: -256px;
+    transform: rotate(-116deg);
+}
+
+.hair>div:nth-child(11){
+    background-color: transparent;
+    color: #CE624D;
+    height: 30pc;
+    width: 107px;
+    border-top: 20px solid #CE624D;
+    border-radius: 50px 40px 0 0;
+    position: absolute;
+    right: 192px;
+    top: -19px;
+    transform: rotate(46deg);
+}
+
+.hair>div:nth-child(12){
+    background-color: transparent;
+    color: #CE624D;
+    height: 30pc;
+    width: 91px;
+    border-top: 20px solid #CE624D;
+    border-radius: 50px 40px 0 0;
+    position: absolute;
+    right: 199px;
+    top: -85px;
+    transform: rotate(84deg);
+}
+
+.hair>div:nth-child(13){
+    background-color: transparent;
+    color: #CE624D;
+    height: 30pc;
+    width: 91px;
+    border-top: 20px solid #CE624D;
+    border-radius: 50px 40px 0 0;
+    position: absolute;
+    right: 190px;
+    top: -117px;
+    transform: rotate(96deg);
+}
+
+.blanket{
+    position: relative;
+    bottom: 304px;
+}
+
+.blanket>div:nth-child(1){
+    position: absolute;
+    background-color: transparent;
+    color: #E4DCCC;
+    border-radius: 50%;
+    height: 30px;
+    width: 91px;
+    right: 190px;
+    top: 10px;
 }
