@@ -58,6 +58,7 @@ body {
     left: 133px;
     transform: rotate(10deg);
     z-index: -1;
+    border: solid 1px black;
 }
 
 .gumball-ear2 {
@@ -70,6 +71,7 @@ body {
     left: 254px;
     transform: rotate(45deg);
     z-index: -1;
+    border: solid 1px black;
 }
 
 /* Gumball's eyes */
@@ -293,6 +295,7 @@ body {
     left: 299px;
     transform: rotate(23deg);
     z-index: -1;
+    border: solid 1px black;
 }
 
 /* Darwin's eyes */
