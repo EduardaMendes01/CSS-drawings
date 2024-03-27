@@ -487,9 +487,9 @@ body {
     clip-path: circle(50% at 50% 50%);
     background-color: #f2ebe25a;
     position: absolute;
-    width: 96px;
-    height: 124px;
-    left: 333px;
-    top: 375px;
+    width: 95px;
+    height: 93px;
+    left: 336px;
+    top: 384px;
     z-index: -1;
 }
