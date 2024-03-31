@@ -462,34 +462,3 @@ body {
     left: 38px;
     top: -83px;
 }
-
-.lamp>div:nth-child(1){
-    clip-path: circle(50% at 50% 50%);
-    background-color: #f2ebe2;
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    left: 357px;
-    top: 405px;
-}
-
-.lamp>div:nth-child(2){
-    clip-path: ellipse(25% 40% at 50% 50%);
-    background-color: #7C894E;
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    left: 369px;
-    top: 395px;
-}
-
-.lamp>div:nth-child(3){
-    clip-path: circle(50% at 50% 50%);
-    background-color: #f2ebe25a;
-    position: absolute;
-    width: 95px;
-    height: 93px;
-    left: 336px;
-    top: 384px;
-    z-index: -1;
-}
