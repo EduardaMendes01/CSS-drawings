@@ -20,7 +20,7 @@ body {
     border-radius: 50% 50% 40% 40% / 46% 50% 34% 56%;
     background-color: #DCB695;
     display: flex;
-    border: solid 2px black;
+    border: solid 2px rgba(0, 0, 0, 0.181);
 }
 
 .ponyo-eyes{
