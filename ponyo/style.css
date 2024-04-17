@@ -453,12 +453,12 @@ body {
 }
 
 .shirt>div:nth-child(2){
-    clip-path: polygon(1% 20%, 100% 0, 100% 86%, 0 100%);
+    clip-path: polygon(1% 20%, 100% 0, 100% 86%, 0 87%);
     background-color: #cf5749;
     position: absolute;
-    width: 196px;
-    height: 180px;
+    width: 191px;
+    height: 174px;
     z-index: -3;
-    left: 38px;
-    top: -83px;
+    left: 35px;
+    top: -80px;
 }
