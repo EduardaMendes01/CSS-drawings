@@ -14,13 +14,27 @@ body {
     margin: 0px;
 }
 
+.frame{
+    width: 300px;
+    height: 400px;
+    background-color: #23CEDE;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    border: 5px solid black;
+    box-shadow: 2px 2px 10px black;
+}
+
 .ponyo-face {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border-radius: 50% 50% 40% 40% / 46% 50% 34% 56%;
     background-color: #DCB695;
-    display: flex;
+    position: relative;
     border: solid 2px rgba(0, 0, 0, 0.181);
+    left: 50px;
+    top: 50px;
 }
 
 .ponyo-eyes{
@@ -28,30 +42,30 @@ body {
 }
 
 .eye-1{
-    width: 55px;
-    height: 47px;
+    width: 45px;
+    height: 37px;
     background: white;
     border-radius: 51% 49% 46% 54% / 64% 64% 36% 36%;
     position: absolute;
     top: 83px;
-    left: 45px;
+    left: 40px;
 }
 
 .eye-2{
-    width: 55px;
-    height: 47px;
+    width: 45px;
+    height: 37px;
     background: white;
     border-radius: 51% 49% 46% 54% / 64% 64% 36% 36%;
     position: absolute;
     top: 83px;
-    left: 163px;
+    left: 136px;
 }
 
 .iris{
     position: absolute;
     clip-path: ellipse(33% 38% at 50% 50%);
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background-color: #3F382A;
     top: 2px;
     left: 3px;
@@ -62,8 +76,8 @@ body {
     position: absolute;
     background-color: black;
     border-radius: 50%;
-    width: 20px;
-    height: 25px;
+    width: 10px;
+    height: 15px;
     top: 13px;
     left: 15px;
 }
@@ -72,20 +86,20 @@ body {
     position: absolute;
     background-color: white;
     border-radius: 50%;
-    width: 8px;
-    height: 10px;
-    top: 15px;
-    left: -1px;
+    width: 5px;
+    height: 7px;
+    top: 11px;
+    left: -3px;
 }
 
 .mouth{
     position: absolute;
     border-radius: 51% 49% 87% 13% / 80% 69% 31% 20%;
     background-color: #ce7660;
-    width: 30px;
-    height: 19px;
-    top: 68%; 
-    left: 52%;
+    width: 25px;
+    height: 15px;
+    top: 79%;
+    left: 60%;
     transform: translate(-50%, -50%);
 }
 
@@ -97,10 +111,10 @@ body {
     position: relative;
     background-color: #997454;
     clip-path: polygon(64% 1%, 71% 12%, 70% 28%, 62% 31%, 66% 19%);
-    width: 60px;
-    height: 31px;
-    top: 140px;
-    left: 202%;
+    width: 61px;
+    height: 26px;
+    top: 120px;
+    left: 151%;
 }
 
 .noise-det2{
@@ -108,8 +122,8 @@ body {
     background-color: rgb(148, 113, 79);
     width: 26px;
     height: 31px;
-    left: 164px;
-    top: 135px;
+    left: 134px;
+    top: 115px;
     transform: translate(-50%, -50%);
     clip-path: polygon(5% 98%, 12% 90%, 23% 88%, 21% 92%, 15% 93%);
 }
@@ -119,8 +133,8 @@ body {
     background-color: rgb(148, 113, 79);
     width: 26px;
     height: 31px;
-    left: 255%;
-    top: 135px;
+    left: 204%;
+    top: 115px;
     transform: translate(-50%, -50%);
     clip-path: polygon(5% 98%, 12% 90%, 23% 88%, 21% 92%, 15% 93%);
 }
@@ -133,10 +147,10 @@ body {
     position: absolute;
     background-color: #CE5E50;
     clip-path: polygon(22% 75%, 36% 66%, 53% 66%, 59% 72%, 41% 70%);
-    width: 121px;
+    width: 105px;
     height: 110px;
-    left: 20px;
-    top: -10px;
+    left: 15px;
+    top: -7px;
     z-index: 4;
 }
 
@@ -144,10 +158,10 @@ body {
     position: absolute;
     background-color: #CE5E50;
     clip-path: polygon(22% 75%, 36% 66%, 53% 66%, 59% 72%, 41% 70%);
-    width: 121px;
+    width: 105px;
     height: 110px;
-    left: 138px;
-    top: -10px;
+    left: 115px;
+    top: -9px;
     z-index: 4;
 }
 .hair{
@@ -325,6 +339,7 @@ body {
 }
 
 .blanket{
+    display: none;
     position: relative;
     bottom: 304px;
 }
@@ -429,10 +444,10 @@ body {
     clip-path: polygon(6% 37%, 33% 49%, 68% 50%, 86% 41%);
     position: absolute;
     background-color: #DCB695;
-    width: 127px;
+    width: 77px;
     height: 235px;
-    left: 68px;
-    top: -99px;
+    left: 117px;
+    top: -48px;
     z-index: -1;
     
 }
@@ -445,20 +460,20 @@ body {
     background-color: #DC5D4F;
     position: absolute;
     clip-path: polygon(0 24%, 24% 42%, 47% 45%, 66% 45%, 91% 32%);
-    width: 207px;
-    height: 241px;
+    width: 51px;
+    height: 134px;
     z-index: -2;
-    left: 38px;
-    top: -83px;
+    left: 110px;
+    top: 8px;
 }
 
 .shirt>div:nth-child(2){
     clip-path: polygon(1% 20%, 100% 0, 100% 86%, 0 87%);
     background-color: #cf5749;
     position: absolute;
-    width: 191px;
-    height: 174px;
+    width: 141px;
+    height: 124px;
     z-index: -3;
-    left: 35px;
-    top: -80px;
+    left: 87px;
+    top: 31px;
 }
