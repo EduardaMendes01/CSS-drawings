@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #BFAB25;
+}
+
+#frame{
+    width: 300px;
+    height: 400px;
+    background-color: #2F3061;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    border: 5px solid black;
+}
+
+.panda{
+    position: relative;
+    width: 300px;
+    height: 400px;
+}
+
+.panda-head{
+    position: relative;
+    width: 160px;
+    height: 145px;
+    border-radius: 49% 51% 46% 54% / 54% 52% 48% 46%;
+    background-color: #F7FFF7;
+    top: 75px;
+    left: 60px;
+    border: 2px solid black;
+}
+
+.panda-body{
+    position: relative;
+    width: 139px;
+    height: 166px;
+    border-radius: 49% 51% 46% 54% / 54% 52% 48% 46%;
+    background-color: #F7FFF7;
+    border: 2px solid black;
+    top: 50px;
+    left: 73px;
+    z-index: -100;
+}
+
+.panda-body>div:nth-child(1){
+    position: relative;
+    width: 78px;
+    height: 40px;
+    border-radius: 49% 51% 46% 54% / 54% 52% 48% 46%;
+    background-color: black;
+    top: 50px;
+    left: 73px;
+    z-index: -100;
+}
+.panda-body>div:nth-child(2){
+    position: relative;
+    width: 78px;
+    height: 40px;
+    border-radius: 49% 51% 46% 54% / 54% 52% 48% 46%;
+    background-color: black;
+    top: 10px;
+    left: -11px;
+    z-index: -100;
+}
+
+.panda-body>div:nth-child(3){
+    position: relative;
+    width: 40px;
+    height: 78px;
+    border-radius: 49% 51% 46% 54% / 54% 52% 48% 46%;
+    background-color: black;
+    top: 28px;
+    left: 19px;
+    z-index: -100;
+}
+
+.panda-body>div:nth-child(4){
+    position: relative;
+    width: 40px;
+    height: 78px;
+    border-radius: 49% 51% 46% 54% / 54% 52% 48% 46%;
+    background-color: black;
+    top: -49px;
+    left: 78px;
+}
+
+.eyes{
+    position: absolute;
+}
+
+#eye1{
+    position: absolute;
+    background-color: black;
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    left: 30px;
+    top: 50px;
+}
+
+#eye2{
+    position: absolute;
+    background-color: black;
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    left: 90px;
+    top: 50px;
+}
+
+.nose{
+    position: absolute;
+    background-color: black;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    left: 72px;
+    top: 85px;
+}
+
+#cheek1{
+    position: absolute;
+    background-color: #FCB0B3;
+    border-radius: 50%;
+    width: 25px;
+    height: 20px;
+    left: 99px;
+    top: 87px;
+}
+
+#cheek2{
+    position: absolute;
+    background-color: #FCB0B3;
+    border-radius: 50%;
+    width: 25px;
+    height: 20px;
+    left: 37px;
+    top: 87px;
+}
+
+#ear1{
+    position: absolute;
+    background-color: black;
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    left: 5px;
+    top: -17px;
+    z-index: -2;
+}
+
+#ear2{
+    position: absolute;
+    background-color: black;
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    left: 119px;
+    top: -17px;
+    z-index: -2;
+}
