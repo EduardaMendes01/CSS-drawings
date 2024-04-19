@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     width: 100vw;
-    height: 100vw; /* Note: corrected vh unit to vw */
+    height: 100vw; 
     background-color: gray;
 }
 
@@ -11,6 +11,19 @@ body {
 * {
     padding: 0px;
     margin: 0px;
+}
+
+#frame{
+    width: 400px;
+    height: 400px;
+    background-color: #0baf0b;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    border: 5px solid black;
+    box-shadow: 2px 2px 10px black;
+    overflow: hidden;
 }
 
 /* Common styles for both characters */
@@ -29,129 +42,130 @@ body {
 
 /* Styles for Gumball's face */
 .gumball-face {
-    width: 339px;
-    height: 268px;
+    position: absolute;
+    width: 227px;
+    height: 168px;
     border-radius: 54% 51% 43% 56% / 93% 67% 44% 24%;
     background-color: rgb(2, 180, 208);
+    top: -87px;
+    left: 8px;
 }
 
 /* Gumball's cheeks */
 .gumball-cheek {
-    width: 180px;
-    height: 170px;
+    width: 80px;
+    height: 83px;
     border-radius: 49% 51% 46% 54% / 54% 51% 49% 46%;
     background-color: rgb(2, 180, 208);
     position: absolute;
-    bottom: 14px;
-    left: -22px;
+    bottom: 12px;
+    left: -9px;
     z-index: -1;
 }
 
 /* Gumball's ears */
 .gumball-ear1 {
-    width: 77px;
-    height: 75px;
+    width: 68px;
+    height: 87px;
     border-radius: 53% 47% 100% 0% / 100% 100% 0% 0%;
     background-color: rgb(2, 180, 208);
     position: absolute;
-    top: -25px;
-    left: 133px;
+    top: -23px;
+    left: 66px;
     transform: rotate(10deg);
-    z-index: -1;
-    border: solid 1px black;
+    z-index: -1;   
 }
 
 .gumball-ear2 {
-    width: 85px;
-    height: 75px;
+    width: 68px;
+    height: 87px;
     border-radius: 53% 47% 100% 0% / 100% 100% 0% 0%;
     background-color: rgb(2, 180, 208);
     position: absolute;
-    top: 1px;
-    left: 254px;
+    top: -12px;
+    left: 151px;
     transform: rotate(45deg);
     z-index: -1;
-    border: solid 1px black;
 }
 
 /* Gumball's eyes */
 .eye1-g {
-    width: 100px;
-    height: 100px;
+    width: 61px;
+    height: 61px;
     background: white;
     border-radius: 50%;
     position: absolute;
-    top: 41px;
-    left: 68px;
+    top: 27px;
+    left: 46px;
     box-shadow: 1px 1px 3px #888787;
 }
 
 .eye2-g {
-    width: 100px;
-    height: 100px;
+    width: 61px;
+    height: 61px;
     background: white;
     border-radius: 50%;
     position: absolute;
-    top: 41px;
-    left: 187px;
+    top: 28px;
+    left: 125px;
     box-shadow: 1px 1px 3px #888787;
 }
 
 /* Gumball's pupils */
 .pupil1 {
-    width: 35px;
-    height: 35px;
+    width: 25px;
+    height: 25px;
     background: black;
     border-radius: 50%;
     position: absolute;
-    top: 15px;
+    top: 13px;
     left: 5px;
     box-shadow: 1px 1px 3px #888787;
 }
 
 .pupil2 {
-    width: 35px;
-    height: 35px;
+    width: 25px;
+    height: 25px;
     background: black;
     border-radius: 50%;
     position: absolute;
-    top: 15px;
+    top: 13px;
     left: 5px;
     box-shadow: 1px 1px 3px #888787;
 }
 
 /* Gumball's mouth */
 .gumball-mouth-top {
-    width: 126px;
-    height: 26px;
+    width: 58px;
+    height: 21px;
     border-radius: 58% 42% 78% 22% / 55% 0% 100% 45%;
     background-color: rgb(189, 230, 231);
     position: absolute;
-    top: 136px;
-    left: 88px;
+    top: 85px;
+    left: 73px;
     z-index: 5;
 }
 
 .gumball-mouth-below {
-    width: 123px;
-    height: 95px;
+    width: 56px;
+    height: 50px;
     border-radius: 44% 56% 57% 43% / 12% 0% 100% 88%;
     background-color: rgb(242, 113, 122);
     position: absolute;
-    top: 138px;
-    left: 91px;
+    top: 87px;
+    left: 76px;
     z-index: 4;
 }
 
 /* Gumball's tongue */
 .gumball-tongue {
-    width: 100px;
-    height: 41px;
+    width: 46px;
+    height: 22px;
     border-radius: 62% 22% 31% 86% / 95% 25% 140% 71%;
     background-color: rgb(249, 170, 165);
     position: absolute;
-    top: 71%;
-    left: 124px;
+    top: 68%;
+    left: 90px;
     transform: rotate(-13deg);
     z-index: 5;
     clip-path: ellipse(85% 98% at -1% 0%);
@@ -159,25 +173,25 @@ body {
 
 /* Gumball's nose */
 .gumball-nose {
-    width: 36px;
-    height: 12px;
+    width: 23px;
+    height: 10px;
     border-radius: 58% 42% 78% 22% / 55% 0% 100% 45%;
     background-color: rgb(210, 76, 23);
     position: absolute;
-    top: 136px;
-    left: 123px;
+    top: 84px;
+    left: 89px;
     z-index: 7;
 }
 
 /* Gumball's teeth */
 .gumball-teeth {
-    width: 10px;
-    height: 25px;
+    width: 7px;
+    height: 17px;
     border-radius: 0% 100% 100% 0% / 0% 0% 100% 100%;
     background-color: white;
     position: absolute;
-    top: 51%;
-    left: 60%;
+    top: 52%;
+    left: 55%;
     z-index: 4;
 }
 
@@ -197,35 +211,35 @@ body {
 }
 
 .whiskers1 {
-    top: 182px;
-    left: -18px;
+    top: 102px;
+    left: -9px;
     clip-path: polygon(0 85%, 122% -111%, 28% 84%, 16% 94%);
     transform: rotate(10deg);
 }
 
 .whiskers2 {
-    top: 206px;
-    left: 2px;
+    top: 122px;
+    left: 3px;
     clip-path: polygon(0 85%, 122% -111%, 28% 84%, 16% 94%);
 }
 
 .whiskers3 {
-    top: 221px;
-    left: 264px;
+    top: 127px;
+    left: 175px;
     clip-path: polygon(0 85%, 122% -111%, 28% 84%, 16% 94%);
     transform: rotate(-55deg);
 }
 
 .whiskers4 {
-    top: 201px;
-    left: 290px;
+    top: 115px;
+    left: 189px;
     clip-path: polygon(0 85%, 122% -111%, 28% 84%, 16% 94%);
     transform: rotate(-59deg);
 }
 
 .whiskers5 {
-    top: 171px;
-    left: 308px;
+    top: 103px;
+    left: 200px;
     clip-path: polygon(0 85%, 122% -111%, 28% 84%, 16% 94%);
     transform: rotate(-70deg);
 }
@@ -233,8 +247,8 @@ body {
 /* Gumball's eyebrows */
 .eyebrow1,
 .eyebrow2 {
-    width: 55px;
-    height: 59px;
+    width: 43px;
+    height: 44px;
     border-radius: 315% 271% 31% 0% / 100% 0% 100% 0%;
     background-color: black;
     position: absolute;
@@ -243,13 +257,13 @@ body {
 
 .eyebrow1 {
     top: -11%;
-    left: 28%;
+    left: 23%;
     transform: rotate(-8deg);
 }
 
 .eyebrow2 {
-    top: -11%;
-    left: 64%;
+    top: -10%;
+    left: 66%;
     transform: rotate(8deg);
 }
 
@@ -263,46 +277,45 @@ body {
 
 /* Darwin's face */
 .darwin-face {
-    width: 339px;
-    height: 268px;
+    width: 200px;
+    height: 173px;
     position: absolute;
-    top: -3px;
-    left: -262px;
+    top: -44px;
+    left: -113px;
     border-radius: 55% 85% 88% 49% / 112% 69% 55% 33%;
     background-color: rgb(255, 116, 18);
 }
 
 /* Darwin's cheeks */
 .darwin-cheek {
-    width: 180px;
-    height: 170px;
+    width: 100px;
+    height: 90px;
     border-radius: 62% 38% 41% 49% / 60% 51% 49% 46%;
     background-color: rgb(255, 116, 18);
     position: absolute;
-    bottom: 14px;
-    left: -22px;
+    bottom: 11px;
+    left: -14px;
     z-index: -1;
 }
 
 /* Darwin's tail */
 .darwin-tail {
-    width: 56px;
-    height: 90px;
+    width: 39px;
+    height: 50px;
     border-radius: 0% 100% 100% 0% / 0% 49% 51% 100%;
     background-color: rgb(255, 116, 18);
     position: absolute;
-    top: 154px;
-    left: 299px;
+    top: 103px;
+    left: 172px;
     transform: rotate(23deg);
     z-index: -1;
-    border: solid 1px black;
 }
 
 /* Darwin's eyes */
 .eye1-d,
 .eye2-d {
-    width: 100px;
-    height: 100px;
+    width: 57px;
+    height: 57px;
     background: white;
     border-radius: 50%;
     position: absolute;
@@ -310,32 +323,24 @@ body {
 }
 
 .eye1-d {
-    top: 41px;
-    left: -212px;
+    top: -13px;
+    left: -76px;
 }
 
 .eye2-d {
-    top: 41px;
-    left: -93px;
+    top: -12px;
+    left: -5px;
 }
 
 /* Darwin's pupils */
 .pupil1-d,
 .pupil2-d {
-    width: 35px;
-    height: 35px;
+    width: 25px;
+    height: 25px;
     background: black;
     border-radius: 50%;
     position: absolute;
     box-shadow: 1px 1px 3px #888787;
-}
-
-.pupil1-d {
-    top: 15px;
-    left: 5px;
-}
-
-.pupil2-d {
     top: 15px;
     left: 5px;
 }
@@ -343,8 +348,8 @@ body {
 /* Darwin's eyebrows */
 .eyeb1,
 .eyeb2 {
-    width: 50px;
-    height: 30px;
+    width: 41px;
+    height: 24px;
     border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
     background-color: black;
     position: absolute;
@@ -352,62 +357,37 @@ body {
 }
 
 .eyeb1 {
-    left: -179px;
-    top: -4px;
+    left: -74px;
+    top: -41px;
     transform: rotate(-4deg);
 }
 
 .eyeb2 {
-    left: -61px;
-    top: 2px;
+    left: 18px;
+    top: -35px;
     transform: rotate(29deg);
 }
 
 /* Darwin's mouth */
 .darwin-mouth {
-    width: 149px;
-    height: 78px;
+    width: 63px;
+    height: 41px;
     border-radius: 0% 100% 52% 48% / 0% 0% 100% 100%;
     background-color: rgb(213, 25, 46);
     position: absolute;
-    left: -182px;
-    top: 156px;
+    left: -51px;
+    top: 53px;
     z-index: 10;
 }
 
 /* Darwin's tongue */
 .darwin-tongue {
-    width: 130px;
-    height: 60px;
+    width: 68px;
+    height: 47px;
     border-radius: 39% 61% 0% 100% / 100% 53% 47% 0%;
     background-color: rgb(234, 60, 80);
     position: absolute;
-    top: 51px;
-    left: 20px;
+    top: 21px;
+    left: 3px;
     clip-path: ellipse(38% 54% at 42% -9%);
 }
-
-/* Additional details for Darwin's tail */
-.detail1,
-.detail2 {
-    width: 5px;
-    height: 0px;
-    background-color: black;
-    border: 15px solid black;
-    border-radius: 1% 57% 13% 41% / 32% 26% 80% 73%;
-    position: absolute;
-    clip-path: polygon(0 85%, 122% -111%, 28% 84%, 16% 94%);
-    z-index: 10;
-    transform: rotate(-82deg);
-}
-
-.detail1 {
-    top: 190px;
-    left: 59px;
-}
-
-.detail2 {
-    top: 164px;
-    left: 67px;
-}
-
