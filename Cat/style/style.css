@@ -55,6 +55,14 @@ html, body {
   left: 76px;
   top: 30px;
 }
+.cat .pupils {
+  position: absolute;
+  border-radius: 50%;
+  background-color: black;
+  width: 16px;
+  height: 20px;
+  left: 10px;
+}
 .cat #nose {
   position: absolute;
   background-color: #F39B6D;
@@ -63,6 +71,24 @@ html, body {
   height: 11px;
   left: 90px;
   top: 165px;
+}
+.cat .mouth #side1 {
+  height: 34px;
+  width: 29px;
+  border-radius: 50%;
+  box-shadow: 0 0.5em black;
+  position: absolute;
+  left: 39px;
+  top: 62px;
+}
+.cat .mouth #side2 {
+  height: 34px;
+  width: 29px;
+  border-radius: 50%;
+  box-shadow: 0 0.5em black;
+  position: absolute;
+  left: 39px;
+  top: 62px;
 }
 
 .cat-body {

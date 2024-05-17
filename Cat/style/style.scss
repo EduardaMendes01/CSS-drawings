@@ -67,6 +67,15 @@ $color-cat:#E9E3B4;
     top: 30px;
    }
 
+   .pupils{
+    position: absolute;
+    border-radius: 50%;
+    background-color: black;
+    width: 16px;
+    height: 20px;
+    left: 10px;
+   }
+
    #nose{
     position: absolute;
     background-color: #F39B6D;
@@ -76,6 +85,28 @@ $color-cat:#E9E3B4;
     left: 90px;
     top: 165px;
 
+   }
+   .mouth{
+
+    #side1{
+      height: 34px;
+      width: 29px;
+      border-radius: 50%;
+      box-shadow: 0 0.5em black;
+      position: absolute;
+      left: 39px;
+      top: 62px;
+    }
+
+    #side2{
+      height: 34px;
+      width: 29px;
+      border-radius: 50%;
+      box-shadow: 0 0.5em black;
+      position: absolute;
+      left: 39px;
+      top: 62px;
+    }
    }
 }
 
